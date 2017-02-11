@@ -1,0 +1,185 @@
+Ray tracing
+
+--------------------------------------------------------------------------
+Key Features:
+
+	1)	R 			-> reset the scene
+	2)	+			-> increase drawing speed
+	3)	-			-> decrease drawing speed
+	4)	SPACE_BAR	-> start drawing
+
+	5)	UP_ARROW	-> increase rays limit to be drawn
+	6)	DOWN_ARROW	-> decrease rays limit to be drawn
+	7)	LEFT_ARROW	-> increase the angle of the light source ray
+	8)	RIGHT_ARROW	-> decrease the angle of the light source ray
+
+--------------------------------------------------------------------------
+20-steps ray camera hit
+
+	Light source rays (0 - 59):
+		-> 0
+		-> 11
+		-> 13
+		-> 18
+		-> 19
+		-> 27
+		-> 42
+		-> 53
+		-> 57
+		-> 59
+
+--------------------------------------------------------------------------
+
+
+Implementation
+
+-> Project is based mainly on the following classes:
+	* CollisionManager
+	* LineFormat
+	* VertexFormat
+	* Camera
+	* LightSource
+	* RadiusDraw
+	* and the folder with the classes for Models: Circle, Square ... 
+
+
+-> Models Folder:
+	* In this folder are kept all classes of objects to be drawn into the 
+	scene. When created, every class will put into a vector object lines 
+	that can give collisions
+
+-> RadiusDraw
+	* This is the class for creating a radius into the scene
+	* Based on the world angle, color and length of a radius, into the 
+	scene will be drawn a rectangle representing the ray
+	* If the radius is directly from the light source, only a small 
+	portion of the radius will be drawn
+	* When space bar key is pressed, the radius will be progressively 
+	drawn up to specified length
+	* When draw is finished, we can start computing the next ray reflection
+
+-> LightSource
+	* The light source is a yellow circle from where all rays start
+
+-> Camera
+	* The camera is a black triangle
+	* When a ray collide with this object, ray will stop drawing
+
+-> VertexFormat
+	* This class describes a vertex in the world space
+	* The vertex is described by color and position
+
+-> LineFormat
+	* This class define a line described by two vertices
+	* Given two vertices, the constructor computes line slope and intercept
+	* Functions:
+		- float getDistanceBetweenTwoPoints(..)
+			# returns the distance of two points given as parameters
+		- bool isLineContainingPoint(..)
+			# returns true if the the current line contains the vertex 
+			given as parameter 
+		- void drawLineReflection(..)
+			# this function creates a new object of type RadiusDraw and 
+			draws the object into the scene
+			# Steps:
+				o compute the ray length
+				o set the angle of the ray in world space
+				o set color
+				o start drawing the ray
+				o add ray to a vector of drawn rays
+		- void computeLineReflection(..)
+			# compute equation of the line reflected, draw the line, and
+			set the line as incident line
+			# Steps:
+				o get the intersection point between incident line and the 
+				surface line
+				o if the line contains the point, we can start computing 
+				the line reflection and also the angle in the world space
+				o next step is to start drawing the line
+				o set the color of the next reflected line, as we can't 
+				compute it in the next iteration, because we have no 
+				more access to the previous incident line
+				o set the reflected line as incident line
+		- bool isLineInteresectingLine(..)
+			# returns true if the current line is intersecting the line 
+			given as parameter
+			# also, we check if ray goes in the right direction. The ray
+			is described by an ecuation and we don't know the orientation.
+			We have to prevent the ray to go in opposite direction
+		- float getLineIntersectionPoint_X(..)
+			# returns x intersection coordinate between two points
+		- float getLineIntersectionPoint_Y(..)
+			# returns y intersection coordinate between two points
+		- bool isValidReflection(..)
+			# check if ray goes in the right direction. The ray
+			is described by an ecuation and we don't know the orientation.
+			We have to prevent the ray to go in opposite direction.
+		- void getLineReflection(..)
+			# compute the line equation of the reflected ray
+			# Steps:
+				o compute the normal line vector to the surface
+				o compute incident line vector
+				o compute the vector for the reflected line
+				o get the reflected line equation
+
+-> CollisionManager
+	* Static elements:
+		- light_source_point
+			o light source ray orientation (from 0 to 59)
+		- light_source_point_changed
+			o true if was chosen another ray from the ligth source
+		- scene_object_lines
+			o vector that keeps all collision objects (lines)
+		- scene_object_rays_names
+			o vector that keeps rays drawn on screen
+		- incident_line
+			o incident line (always updated with the reflected line)
+		- is_light_directly_from_source
+			o  true if the incident line is directly from light source
+		- is_camera_hit
+			o true if the camera was reached
+		- is_radius_drawing
+			o while is_radius_drawing = true stop processing next line 
+			reflections
+		- space_key_pressed
+			o true if space key was pressed
+		- max_no_of_rays
+			o max number of reflections
+	* Functions
+		- void reset(..)
+			o reset the scene
+		- void getLightSourceStartCoordinates(..)
+			o compute the incident line equation
+			o steps:
+				-> compute coordinates for the first line point between 
+				two light_source_rays
+				-> compute coordinates for the second line point between 
+				two light_source_rays
+				-> set light source line as incident line
+		- long double getLightSourceRayAngle(..)
+			o get the angle of the incident line comming from light 
+			source (in world space)
+		- void addSceneLine(..)
+			o function that adds world space collision lines
+		- void addCamera(..)
+			o add camera in the right-up corner (black triangle)
+		- void drawRay(..)
+			o function that draws a reflection ray if certain conditions 
+			are met: if the camera and max number of rays was not hit
+		- void checkForRadiusCollision(..)
+			o get the next reflection line
+			o Steps:
+				-> if the ligth source ray was changed, get the new data 
+				for the incident line
+				-> if a ray is currently drawing, don't check for another
+				reflection line until drawing is finished
+				-> get the surface line based on distance and intersection
+				-> compute the incident line reflection with the line surface previously found, and then draw it
+				-> check if camera was hit
+				-> Check if max number of rays was hit
+
+-> main
+	* windowMain(..)
+		- create program
+		- add objects into the scene
+		- add scene collision lines

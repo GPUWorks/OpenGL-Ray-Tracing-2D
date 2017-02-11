@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{a1ef096c-7ea4-4e16-ad1d-f6b81f318fae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Info">
+      <UniqueIdentifier>{34b9300f-7717-4397-859e-1ef528cd87d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{d8629f10-7237-4c27-bd17-3efc15541a5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Info">
+      <UniqueIdentifier>{4baff704-835a-4679-9961-2e485a04bd6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Init">
+      <UniqueIdentifier>{61aaf99e-49c6-4e6f-a9b8-527e7990c7a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Init">
+      <UniqueIdentifier>{50c38b86-beed-4b24-b0d2-0083262aeb2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Listeners">
+      <UniqueIdentifier>{7a1138d4-5643-4508-8b97-d5f562b81a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{77f4a1cd-ad0d-4046-b86f-2100a2b4dce1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{1b8ef104-272a-4301-92b3-74fd46a63768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendering">
+      <UniqueIdentifier>{ad61899a-97b4-41ea-8fdb-d71489b9f3ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering">
+      <UniqueIdentifier>{a3c1578c-f4f8-4280-aff6-726d265589a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendering\Models">
+      <UniqueIdentifier>{ae488a15-9851-4b26-be13-f617c6feeefb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendering\Interfaces">
+      <UniqueIdentifier>{54b19068-a0c7-408e-b317-7bf6b2d3006c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\Formats">
+      <UniqueIdentifier>{72868579-3adb-4873-af12-45c7c1eb1b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\Models">
+      <UniqueIdentifier>{fef4fa49-65ef-4e7f-a770-3552212b1efe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendering\Formats">
+      <UniqueIdentifier>{79af0849-01aa-47d8-a907-3d1356c01350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shader Files">
+      <UniqueIdentifier>{d43b6ffe-a63f-452d-b611-cfc8abb0879b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EGC_Homework_1">
+      <UniqueIdentifier>{0d3451e1-b7ab-48a3-9f28-9d84910b17a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EGC_Homework_1">
+      <UniqueIdentifier>{110703c8-a6cd-4535-931e-0ae630d372a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EGC_Homework_1\Rendering">
+      <UniqueIdentifier>{60bbcfb2-7cae-46d1-85d9-2f5f6fa9595c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EGC_Homework_1\Rendering">
+      <UniqueIdentifier>{01ea9850-0fbc-4177-819c-279da4675468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EGC_Homework_1\Rendering\Models">
+      <UniqueIdentifier>{213303b8-2688-4ceb-8f4e-57f0df513538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EGC_Homework_1\Rendering\Models">
+      <UniqueIdentifier>{aec1bed1-e345-4835-9037-ea4a62192f1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EGC_Homework_1\Rendering\SceneMainElements">
+      <UniqueIdentifier>{cbd7ecbd-579d-4437-b3f8-b88eca7a8602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EGC_Homework_1\Rendering\SceneMainElements">
+      <UniqueIdentifier>{e2be464a-9892-403f-b9af-d695464bd62f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source Files\ContextInfo.cpp">
+      <Filter>Source Files\Core\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\WindowInfo.cpp">
+      <Filter>Source Files\Core\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\FramebufferInfo.cpp">
+      <Filter>Source Files\Core\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Init_GLEW.cpp">
+      <Filter>Source Files\Core\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Init_GLUT.cpp">
+      <Filter>Source Files\Core\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\SceneManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ShaderManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\VertexFormat.cpp">
+      <Filter>Source Files\Rendering\Formats</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Model.cpp">
+      <Filter>Source Files\Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ModelManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\WindowsManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\CollisionManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\LineFormat.cpp">
+      <Filter>Source Files\Rendering\Formats</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Camera.cpp">
+      <Filter>Source Files\EGC_Homework_1\Rendering\SceneMainElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\LightSource.cpp">
+      <Filter>Source Files\EGC_Homework_1\Rendering\SceneMainElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\RadiusDraw.cpp">
+      <Filter>Source Files\EGC_Homework_1\Rendering\SceneMainElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Circle.cpp">
+      <Filter>Source Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\CustomModel_1.cpp">
+      <Filter>Source Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\CustomModel_2.cpp">
+      <Filter>Source Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\CustomModel_3.cpp">
+      <Filter>Source Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Heptagon.cpp">
+      <Filter>Source Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Parallelogram.cpp">
+      <Filter>Source Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Rectangle.cpp">
+      <Filter>Source Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Square.cpp">
+      <Filter>Source Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Star.cpp">
+      <Filter>Source Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Triangle.cpp">
+      <Filter>Source Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Circle2.cpp">
+      <Filter>Source Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Circle3.cpp">
+      <Filter>Source Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Heptagon2.cpp">
+      <Filter>Source Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Rectangle2.cpp">
+      <Filter>Source Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header Files\ContextInfo.h">
+      <Filter>Header Files\Core\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\WindowInfo.h">
+      <Filter>Header Files\Core\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\FramebufferInfo.h">
+      <Filter>Header Files\Core\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Init_GLEW.h">
+      <Filter>Header Files\Core\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Init_GLUT.h">
+      <Filter>Header Files\Core\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\SceneManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\ShaderManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Model.h">
+      <Filter>Header Files\Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\VertexFormat.h">
+      <Filter>Header Files\Rendering\Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\ModelManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\IListener.h">
+      <Filter>Header Files\Core\Listeners</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\KeyListener.h">
+      <Filter>Header Files\Core\Listeners</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\WindowsManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\IModel.h">
+      <Filter>Header Files\Rendering\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\CollisionManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\LineFormat.h">
+      <Filter>Header Files\Rendering\Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Camera.h">
+      <Filter>Header Files\EGC_Homework_1\Rendering\SceneMainElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\LightSource.h">
+      <Filter>Header Files\EGC_Homework_1\Rendering\SceneMainElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\RadiusDraw.h">
+      <Filter>Header Files\EGC_Homework_1\Rendering\SceneMainElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Circle.h">
+      <Filter>Header Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\CustomModel_1.h">
+      <Filter>Header Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\CustomModel_2.h">
+      <Filter>Header Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\CustomModel_3.h">
+      <Filter>Header Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Heptagon.h">
+      <Filter>Header Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Parallelogram.h">
+      <Filter>Header Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Rectangle.h">
+      <Filter>Header Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Square.h">
+      <Filter>Header Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Star.h">
+      <Filter>Header Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Triangle.h">
+      <Filter>Header Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Circle2.h">
+      <Filter>Header Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Circle3.h">
+      <Filter>Header Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Heptagon2.h">
+      <Filter>Header Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Rectangle2.h">
+      <Filter>Header Files\EGC_Homework_1\Rendering\Models</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource Files\Shader Files\Fragment_Shader.glsl">
+      <Filter>Resource Files\Shader Files</Filter>
+    </None>
+    <None Include="Resource Files\Shader Files\Vertex_Shader.glsl">
+      <Filter>Resource Files\Shader Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

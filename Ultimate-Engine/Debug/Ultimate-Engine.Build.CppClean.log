@@ -1,42 +1,42 @@
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\vc140.pdb
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\vc140.idb
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\lightsource.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\framebufferinfo.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\heptagon.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\init_glew.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\init_glut.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\lineformat.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\model.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\modelmanager.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\parallelogram.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\radiusdraw.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\rectangle.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\rectangle2.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\shadermanager.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\square.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\star.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\triangle.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\vertexformat.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\windowinfo.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\windowsmanager.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\main.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\camera.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\circle.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\circle2.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\circle3.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\collisionmanager.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\contextinfo.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\custommodel_1.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\custommodel_2.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\custommodel_3.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\heptagon2.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\scenemanager.obj
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\debug\ultimate-engine.ilk
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\debug\ultimate-engine.exe
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\debug\ultimate-engine.pdb
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\ultimate-engine.tlog\cl.command.1.tlog
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\ultimate-engine.tlog\cl.read.1.tlog
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\ultimate-engine.tlog\cl.write.1.tlog
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\ultimate-engine.tlog\link.command.1.tlog
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\ultimate-engine.tlog\link.read.1.tlog
-c:\users\gxg\documents\visual studio 2015\projects\ultimate-engine\ultimate-engine\debug\ultimate-engine.tlog\link.write.1.tlog
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\vc140.pdb
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\vc140.idb
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\lightsource.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\framebufferinfo.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\heptagon.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\init_glew.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\init_glut.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\lineformat.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\model.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\modelmanager.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\parallelogram.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\radiusdraw.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\rectangle.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\rectangle2.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\scenemanager.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\shadermanager.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\square.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\star.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\triangle.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\vertexformat.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\windowinfo.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\windowsmanager.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\main.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\camera.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\circle.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\circle2.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\circle3.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\collisionmanager.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\contextinfo.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\custommodel_1.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\custommodel_2.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\custommodel_3.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\heptagon2.obj
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\debug\ultimate-engine.ilk
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\debug\ultimate-engine.exe
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\debug\ultimate-engine.pdb
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\ultimate-engine.tlog\cl.command.1.tlog
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\ultimate-engine.tlog\cl.read.1.tlog
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\ultimate-engine.tlog\cl.write.1.tlog
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\ultimate-engine.tlog\link.command.1.tlog
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\ultimate-engine.tlog\link.read.1.tlog
+c:\users\george birzu\source\repos\opengl-ray-tracing-2d\ultimate-engine\debug\ultimate-engine.tlog\link.write.1.tlog

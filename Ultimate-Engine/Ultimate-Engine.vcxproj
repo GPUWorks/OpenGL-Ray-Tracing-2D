@@ -69,15 +69,15 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LibraryPath>C:\Users\gxg\Documents\Visual Studio 2015\Projects\Ultimate-Engine\Ultimate-Engine\Dependencies;$(LibraryPath)</LibraryPath>
-    <IncludePath>C:\Users\gxg\Documents\Visual Studio 2015\Projects\Ultimate-Engine\Ultimate-Engine\Dependencies;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Ultimate-Engine\Dependencies;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)Ultimate-Engine\Dependencies;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\gxg\Documents\Visual Studio 2015\Projects\Ultimate-Engine\Ultimate-Engine\Header Files;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Ultimate-Engine\Header Files;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>

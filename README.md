@@ -3,6 +3,7 @@
 
 # Preconditions
    - Microsoft Visual Studio IDE
+   - Run the project in Debug x86 mode
 
 # Short Description:
    - 2D ray tracing algorithm implementation for a single beam, in a
